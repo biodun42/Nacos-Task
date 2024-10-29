@@ -227,13 +227,13 @@ span {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .left-login {
     width: 80%;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .left-login {
     width: 100%;
   }
