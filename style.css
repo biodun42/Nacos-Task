@@ -163,7 +163,7 @@ form {
 
 span {
   color: #5429ff;
-  cursor: pointer;
+  cursor: pointer;z
 }
 
 @media screen and (max-width: 1200px) {
@@ -204,7 +204,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 0px;
     height: auto;
     overflow: auto;
   }
@@ -219,6 +219,7 @@ span {
     height: auto;
   }
   .left-login {
+    padding: 20px 0;
     gap: 40px;
     width: 60%;
   }
@@ -241,6 +242,6 @@ span {
     width: 100%;
   }
   section{
-    padding: 13px;
+    padding: 0 13px;
   }
 }
