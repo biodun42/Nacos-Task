@@ -198,24 +198,27 @@ span {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 13px;
+    padding: 15px;
+    height: auto;
+    overflow: auto;
   }
   .container {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
   }
   .right-login {
     display: none;
+    height: auto;
   }
   .left-login {
-    height: 100vh;
     gap: 40px;
     width: 60%;
   }
@@ -236,5 +239,8 @@ span {
 @media screen and (max-width: 500px) {
   .left-login {
     width: 100%;
+  }
+  section{
+    padding: 13px;
   }
 }
