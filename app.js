@@ -1,4 +1,3 @@
-// Form validation and submission
 document.querySelector("form").addEventListener("submit", function (event) {
   event.preventDefault();
   const email = document.getElementById("email");
@@ -58,18 +57,15 @@ document.querySelector("form").addEventListener("submit", function (event) {
   password.value = "";
 });
 
-// Toggle password visibility
 document.getElementById("toggle-password").addEventListener("click", function () {
   const passwordField = document.getElementById("password");
   passwordField.type = passwordField.type === "password" ? "text" : "password";
 });
 
-// Clear email input
 document.getElementById("clear-email").addEventListener("click", function () {
   document.getElementById("email").value = "";
 });
 
-// "Feature not available" message for Google sign-in button
 document.getElementById("btn-google").addEventListener("click", function (event) {
   event.preventDefault();
   Swal.fire({
