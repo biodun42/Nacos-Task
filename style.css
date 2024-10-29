@@ -11,6 +11,7 @@
   align-items: center;
   gap: 10px;
 }
+
 body {
   background-color: #f4f6f8;
 }
@@ -22,7 +23,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow: hidden;              
 }
 .container {
   width: 100%;
@@ -110,6 +111,9 @@ form {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+}
+.input-tag div img{
+  cursor: pointer;
 }
 .fr-password {
   display: flex;
